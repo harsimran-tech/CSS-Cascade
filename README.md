@@ -1,2 +1,20 @@
-# CSS-Cascade
-Use the in-class ToDo list as your starting point. Use generic selectors to add some style / visual updates to the page. Follow the steps listed below to add functionality with CSS, selectors and the ::before and ::after pseudo selectors
+# To-Do List
+
+This is a simple to-do list application that demonstrates basic HTML, CSS, and JavaScript functionality.
+
+## Features
+- Background image
+- Stylish header with creative title
+- Checkbox functionality for marking items as "done" or "in progress"
+- Visual updates with CSS, including ::before and ::after pseudo-elements
+
+## Setup
+Clone the repository and open `index.html` in your browser.
+
+## Technologies Used
+- HTML
+- CSS
+- GitHub for version control
+
+## creater
+harsimran singh
