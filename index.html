@@ -22,7 +22,79 @@
           </label>
         </li>
         <li>
-          <label>
+          <label><!DOCTYPE html>
+            <html lang="en">
+            <head>
+              <meta charset="UTF-8">
+              <title>Project Planner</title>
+              <link rel="stylesheet" href="css/style.css">
+              <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+            </head>
+            <body>
+              <header>
+                <h1 id="page-title">📋 Project Tasks Tracker</h1>
+              </header>
+            
+              <main>
+                <!-- Pending Tasks Section -->
+                <section id="todo-list">
+                  <h2>To-Do List</h2>
+                  <ul class="pending-tasks">
+                    <li>
+                      <label>
+                        <input type="checkbox">
+                        <span>Complete design for homepage</span>
+                      </label>
+                    </li>
+                    <li>
+                      <label>
+                        <input type="checkbox">
+                        <span>Finish writing documentation</span>
+                      </label>
+                    </li>
+                  </ul>
+                </section>
+                
+                <!-- In Progress Section -->
+                <section id="in-progress">
+                  <h2>In Progress</h2>
+                  <ul class="working-on">
+                    <li>
+                      <label>
+                        <input type="checkbox">
+                        <span>Integrate front-end with back-end</span>
+                      </label>
+                    </li>
+                    <li>
+                      <label>
+                        <input type="checkbox">
+                        <span>Fix UI bugs on the website</span>
+                      </label>
+                    </li>
+                  </ul>
+                </section>
+            
+                <!-- Accomplished Milestones Section -->
+                <section id="completed-tasks">
+                  <h2>Accomplished Milestones</h2>
+                  <ul class="completed-tasks">
+                    <li>
+                      <label>
+                        <input type="checkbox" checked>
+                        <span>Setup version control (Git)</span>
+                      </label>
+                    </li>
+                    <li>
+                      <label>
+                        <input type="checkbox" checked>
+                        <span>Write initial project proposal</span>
+                      </label>
+                    </li>
+                  </ul>
+                </section>
+              </main>
+            </body>
+            </html>
             <input type="checkbox">
             <span>Finish writing documentation</span>
           </label>
